@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 700px;
+}
+
+.flex{
+    display: flex;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+}
+
+.black{
+    background-color: black;
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    margin-left: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.king{
+    width: 65px;
+    height: 65px;
+    margin-left: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+}
